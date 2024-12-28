@@ -1,0 +1,17 @@
+{
+	"node": "mage-nodes-base.readBinaryFiles",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Core Nodes"],
+	"resources": {
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/core-nodes/mage-nodes-base.readwritefile/"
+			}
+		]
+	},
+	"alias": ["Text", "Open", "Import"],
+	"subcategories": {
+		"Core Nodes": ["Files"]
+	}
+}

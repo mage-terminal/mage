@@ -1,0 +1,30 @@
+{
+	"node": "mage-nodes-base.hubspotTrigger",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Sales"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/credentials/hubspot/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/trigger-nodes/mage-nodes-base.hubspottrigger/"
+			}
+		],
+		"generic": [
+			{
+				"label": "How to get started with CRM automation (with 3 no-code workflow ideas",
+				"icon": "👥",
+				"url": "https://mage.io/blog/how-to-get-started-with-crm-automation-and-no-code-workflow-ideas/"
+			},
+			{
+				"label": "Benefits of automation and mage: An interview with HubSpot's Hugh Durkin",
+				"icon": "🎖",
+				"url": "https://mage.io/blog/benefits-of-automation-and-mage-an-interview-with-hubspots-hugh-durkin/"
+			}
+		]
+	}
+}

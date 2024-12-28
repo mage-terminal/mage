@@ -1,0 +1,25 @@
+{
+	"node": "mage-nodes-base.clickUp",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Productivity", "Communication"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/credentials/clickUp/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/app-nodes/mage-nodes-base.clickup/"
+			}
+		],
+		"generic": [
+			{
+				"label": "2021: The Year to Automate the New You with mage",
+				"icon": "☀️",
+				"url": "https://mage.io/blog/2021-the-year-to-automate-the-new-you-with-mage/"
+			}
+		]
+	}
+}

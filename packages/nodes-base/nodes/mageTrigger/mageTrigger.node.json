@@ -1,0 +1,16 @@
+{
+	"node": "mage-nodes-base.mageTrigger",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Core Nodes"],
+	"resources": {
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/core-nodes/mage-nodes-base.magetrigger/"
+			}
+		]
+	},
+	"subcategories": {
+		"Core Nodes": ["Flow", "Other Trigger Nodes", "Helpers"]
+	}
+}

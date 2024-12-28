@@ -1,0 +1,24 @@
+{
+	"node": "mage-nodes-base.awsComprehend",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Development"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/credentials/aws/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/app-nodes/mage-nodes-base.awscomprehend/"
+			}
+		],
+		"generic": [
+			{
+				"label": "7 no-code workflow automations for Amazon Web Services",
+				"url": "https://mage.io/blog/aws-workflow-automation/"
+			}
+		]
+	}
+}

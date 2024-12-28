@@ -1,0 +1,25 @@
+{
+	"node": "mage-nodes-base.notionTrigger",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Productivity"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/credentials/notion/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/trigger-nodes/mage-nodes-base.notiontrigger/"
+			}
+		],
+		"generic": [
+			{
+				"label": "5 tasks you can automate with the new Notion API ",
+				"icon": "⚡️",
+				"url": "https://mage.io/blog/5-tasks-you-can-automate-with-notion-api/"
+			}
+		]
+	}
+}

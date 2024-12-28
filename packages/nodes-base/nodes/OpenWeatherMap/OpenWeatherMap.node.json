@@ -1,0 +1,30 @@
+{
+	"node": "mage-nodes-base.openWeatherMap",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Miscellaneous", "Utility"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/credentials/openWeatherMap/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/app-nodes/mage-nodes-base.openweathermap/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Learn to Build Powerful API Endpoints Using Webhooks",
+				"icon": "🧰",
+				"url": "https://mage.io/blog/learn-to-build-powerful-api-endpoints-using-webhooks/"
+			},
+			{
+				"label": "Creating Telegram Bots with mage, a No-Code Platform",
+				"icon": "💬",
+				"url": "https://mage.io/blog/creating-telegram-bots-with-mage-a-no-code-platform/"
+			}
+		]
+	}
+}

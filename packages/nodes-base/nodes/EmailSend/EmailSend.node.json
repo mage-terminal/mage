@@ -1,0 +1,31 @@
+{
+	"node": "mage-nodes-base.emailSend",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Communication", "Core Nodes"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/credentials/sendemail/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/core-nodes/mage-nodes-base.sendemail/"
+			}
+		],
+		"generic": [
+			{
+				"label": "2021: The Year to Automate the New You with mage",
+				"icon": "☀️",
+				"url": "https://mage.io/blog/2021-the-year-to-automate-the-new-you-with-mage/"
+			},
+			{
+				"label": "Build your own virtual assistant with mage: A step by step guide",
+				"icon": "👦",
+				"url": "https://mage.io/blog/build-your-own-virtual-assistant-with-mage-a-step-by-step-guide/"
+			}
+		]
+	},
+	"alias": ["SMTP"]
+}

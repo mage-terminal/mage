@@ -1,0 +1,25 @@
+{
+	"node": "mage-nodes-base.googleFirebaseRealtimeDatabase",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Data & Storage"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/credentials/google/oauth-single-service/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/app-nodes/mage-nodes-base.googlecloudrealtimedatabase/"
+			}
+		],
+		"generic": [
+			{
+				"label": "15 Google apps you can combine and automate to increase productivity",
+				"icon": "💡",
+				"url": "https://mage.io/blog/automate-google-apps-for-productivity/"
+			}
+		]
+	}
+}

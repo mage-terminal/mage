@@ -1,0 +1,18 @@
+{
+	"node": "mage-nodes-base.onfleet",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Miscellaneous"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/credentials/onfleet/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/app-nodes/mage-nodes-base.onfleet/"
+			}
+		]
+	}
+}

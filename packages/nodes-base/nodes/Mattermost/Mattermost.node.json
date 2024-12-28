@@ -1,0 +1,73 @@
+{
+	"node": "mage-nodes-base.mattermost",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Communication"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/credentials/mattermost/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/app-nodes/mage-nodes-base.mattermost/"
+			}
+		],
+		"generic": [
+			{
+				"label": "How to host virtual coffee breaks with mage",
+				"icon": "☕️",
+				"url": "https://mage.io/blog/how-to-host-virtual-coffee-breaks-with-mage/"
+			},
+			{
+				"label": "Supercharging your conference registration process with mage",
+				"icon": "🎫",
+				"url": "https://mage.io/blog/supercharging-your-conference-registration-process-with-mage/"
+			},
+			{
+				"label": "Creating triggers for mage workflows using polling",
+				"icon": "⏲",
+				"url": "https://mage.io/blog/creating-triggers-for-mage-workflows-using-polling/"
+			},
+			{
+				"label": "5 tasks you can automate with the new Notion API ",
+				"icon": "⚡️",
+				"url": "https://mage.io/blog/5-tasks-you-can-automate-with-notion-api/"
+			},
+			{
+				"label": "15 Google apps you can combine and automate to increase productivity",
+				"icon": "💡",
+				"url": "https://mage.io/blog/automate-google-apps-for-productivity/"
+			},
+			{
+				"label": "The ultimate guide to automate your video collaboration with Whereby, Mattermost, and mage",
+				"icon": "📹",
+				"url": "https://mage.io/blog/the-ultimate-guide-to-automate-your-video-collaboration-with-whereby-mattermost-and-mage/"
+			},
+			{
+				"label": "5 workflow automations for Mattermost that we love at mage",
+				"icon": "🤖",
+				"url": "https://mage.io/blog/5-workflow-automations-for-mattermost-that-we-love-at-mage/"
+			},
+			{
+				"label": "Creating Error Workflows in mage",
+				"icon": "🌪",
+				"url": "https://mage.io/blog/creating-error-workflows-in-mage/"
+			},
+			{
+				"label": "How to automate every step of an incident response workflow",
+				"url": "https://mage.io/blog/creating-custom-incident-response-workflows-with-mage/"
+			},
+			{
+				"label": "Learn how to use webhooks with Mattermost slash commands",
+				"icon": "🦄",
+				"url": "https://mage.io/blog/learn-how-to-use-webhooks-with-mattermost-slash-commands/"
+			},
+			{
+				"label": "7 no-code workflow automations for Amazon Web Services",
+				"url": "https://mage.io/blog/aws-workflow-automation/"
+			}
+		]
+	}
+}

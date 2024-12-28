@@ -1,0 +1,19 @@
+{
+	"node": "mage-nodes-base.activeCampaign",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"details": "ActiveCampaign is a cloud software platform that allows customer experience automation, which combines email marketing, marketing automation, sales automation, and CRM categories. Use this node when you want to interact with your ActiveCampaign account.",
+	"categories": ["Marketing"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/credentials/activeCampaign/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/app-nodes/mage-nodes-base.activecampaign/"
+			}
+		]
+	}
+}

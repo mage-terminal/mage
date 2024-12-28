@@ -1,0 +1,13 @@
+sw.js
+sw.js.map
+workbox-*
+# Ignore IntelliJ IDEA project files
+.idea/
+
+# Ignore PyCharm project files
+.idea/
+
+# Ignore VSCode project files
+.vscode/
+
+.devcontainer

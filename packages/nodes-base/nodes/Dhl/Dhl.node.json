@@ -1,0 +1,19 @@
+{
+	"node": "mage-nodes-base.dhl",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Miscellaneous"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/credentials/dhl/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/app-nodes/mage-nodes-base.dhl/"
+			}
+		]
+	},
+	"alias": ["Shipping"]
+}

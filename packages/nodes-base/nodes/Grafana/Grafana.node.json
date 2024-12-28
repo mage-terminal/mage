@@ -1,0 +1,19 @@
+{
+	"node": "mage-nodes-base.grafana",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Development", "Analytics"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/credentials/grafana/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/app-nodes/mage-nodes-base.grafana/"
+			}
+		]
+	},
+	"alias": ["Prometheus"]
+}

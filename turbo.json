@@ -1,0 +1,90 @@
+{
+	"$schema": "https://turbo.build/schema.json",
+	"ui": "stream",
+	"globalEnv": ["CI", "COVERAGE_ENABLED"],
+	"tasks": {
+		"clean": {
+			"cache": false
+		},
+		"build:backend": {
+			"dependsOn": ["mage#build"]
+		},
+		"build:frontend": {
+			"dependsOn": ["mage-editor-ui#build"]
+		},
+		"build:nodes": {
+			"dependsOn": ["mage-nodes-base#build", "@mage/mage-nodes-langchain#build"]
+		},
+		"build": {
+			"dependsOn": ["^build"],
+			"outputs": ["dist/**"]
+		},
+		"typecheck": {
+			"dependsOn": ["^typecheck"]
+		},
+		"format": {},
+		"format:check": {},
+		"lint:backend": {
+			"dependsOn": [
+				"@mage/api-types#lint",
+				"@mage/config#lint",
+				"@mage/client-oauth2#lint",
+				"@mage/imap#lint",
+				"@mage/permissions#lint",
+				"@mage/task-runner#lint",
+				"mage-workflow#lint",
+				"mage-core#lint",
+				"mage-node-dev#lint",
+				"mage#lint"
+			]
+		},
+		"lint:frontend": {
+			"dependsOn": [
+				"@mage/chat#lint",
+				"@mage/codemirror-lang#lint",
+				"@mage/storybook#lint",
+				"mage-cypress#lint",
+				"mage-design-system#lint",
+				"mage-editor-ui#lint"
+			]
+		},
+		"lint:nodes": {
+			"dependsOn": ["mage-nodes-base#lint", "@mage/mage-nodes-langchain#lint"]
+		},
+		"lint": {},
+		"lintfix": {},
+		"test:backend": {
+			"dependsOn": [
+				"@mage/api-types#test",
+				"@mage/config#test",
+				"@mage/client-oauth2#test",
+				"@mage/imap#test",
+				"@mage/permissions#test",
+				"@mage/task-runner#test",
+				"mage-workflow#test",
+				"mage-core#test",
+				"mage#test"
+			]
+		},
+		"test:frontend": {
+			"dependsOn": [
+				"@mage/chat#test",
+				"@mage/codemirror-lang#test",
+				"mage-design-system#test",
+				"mage-editor-ui#test"
+			]
+		},
+		"test:nodes": {
+			"dependsOn": ["mage-nodes-base#test", "@mage/mage-nodes-langchain#test"]
+		},
+		"test": {},
+		"watch": {
+			"cache": false,
+			"persistent": true
+		},
+		"dev": {
+			"cache": false,
+			"persistent": true
+		}
+	}
+}

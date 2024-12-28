@@ -1,0 +1,17 @@
+{
+	"node": "mage-nodes-base.iCal",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Core Nodes", "Productivity"],
+	"resources": {
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/core-nodes/mage-nodes-base.converttofile/"
+			}
+		]
+	},
+	"alias": ["ics", ".ics"],
+	"subcategories": {
+		"Core Nodes": ["Files"]
+	}
+}

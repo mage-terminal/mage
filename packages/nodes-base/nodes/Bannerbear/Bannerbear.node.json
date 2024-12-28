@@ -1,0 +1,35 @@
+{
+	"node": "mage-nodes-base.bannerbear",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Marketing"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/credentials/bannerbear/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/app-nodes/mage-nodes-base.bannerbear/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Automate Designs with Bannerbear and mage",
+				"icon": "🎨",
+				"url": "https://mage.io/blog/automate-designs-with-bannerbear-and-mage/"
+			},
+			{
+				"label": "Automating Conference Organization Processes with mage",
+				"icon": "🙋‍♀️",
+				"url": "https://mage.io/blog/automating-conference-organization-processes-with-mage/"
+			},
+			{
+				"label": "Benefits of automation and mage: An interview with HubSpot's Hugh Durkin",
+				"icon": "🎖",
+				"url": "https://mage.io/blog/benefits-of-automation-and-mage-an-interview-with-hubspots-hugh-durkin/"
+			}
+		]
+	}
+}

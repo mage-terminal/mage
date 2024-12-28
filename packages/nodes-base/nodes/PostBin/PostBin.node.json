@@ -1,0 +1,13 @@
+{
+	"node": "mage-nodes-base.postbin",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Development", "Data & Storage"],
+	"resources": {
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/app-nodes/mage-nodes-base.postbin/"
+			}
+		]
+	}
+}

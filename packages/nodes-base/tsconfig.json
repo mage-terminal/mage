@@ -1,0 +1,25 @@
+{
+	"extends": ["../../tsconfig.json", "../../tsconfig.backend.json"],
+	"compilerOptions": {
+		"paths": {
+			"@test/*": ["./test/*"],
+			"@utils/*": ["./utils/*"]
+		},
+		"tsBuildInfoFile": "dist/typecheck.tsbuildinfo",
+		// TODO: remove all options below this line
+		"noImplicitReturns": false,
+		"useUnknownInCatchVariables": false
+	},
+	"include": [
+		"credentials/**/*.ts",
+		"nodes/**/*.ts",
+		"test/**/*.ts",
+		"utils/**/*.ts",
+		"types/**/*.ts"
+	],
+	"references": [
+		{ "path": "../@mage/imap/tsconfig.build.json" },
+		{ "path": "../workflow/tsconfig.build.json" },
+		{ "path": "../core/tsconfig.build.json" }
+	]
+}

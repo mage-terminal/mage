@@ -1,0 +1,25 @@
+{
+	"node": "mage-nodes-base.stripeTrigger",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Finance & Accounting", "Sales"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/credentials/stripe/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/trigger-nodes/mage-nodes-base.stripetrigger/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Automate your customer journey with mage: An interview with Blent.ai",
+				"icon": "🚀",
+				"url": "https://mage.io/blog/automate-your-customer-journey-with-mage-an-interview-with-blent-ai/"
+			}
+		]
+	}
+}

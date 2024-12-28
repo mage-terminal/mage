@@ -1,0 +1,18 @@
+{
+	"node": "mage-nodes-base.figmaTrigger",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Miscellaneous"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/credentials/figma/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/trigger-nodes/mage-nodes-base.figmatrigger/"
+			}
+		]
+	}
+}

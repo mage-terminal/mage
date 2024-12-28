@@ -1,0 +1,16 @@
+{
+	"node": "mage-nodes-base.markdown",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Core Nodes"],
+	"resources": {
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/core-nodes/mage-nodes-base.markdown/"
+			}
+		]
+	},
+	"subcategories": {
+		"Core Nodes": ["Data Transformation"]
+	}
+}

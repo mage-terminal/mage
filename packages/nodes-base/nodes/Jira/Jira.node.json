@@ -1,0 +1,29 @@
+{
+	"node": "mage-nodes-base.jira",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Development", "Productivity"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/credentials/jira/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/app-nodes/mage-nodes-base.jira/"
+			}
+		],
+		"generic": [
+			{
+				"label": "5 workflow automations for Mattermost that we love at mage",
+				"icon": "🤖",
+				"url": "https://mage.io/blog/5-workflow-automations-for-mattermost-that-we-love-at-mage/"
+			},
+			{
+				"label": "How to automate every step of an incident response workflow",
+				"url": "https://mage.io/blog/creating-custom-incident-response-workflows-with-mage/"
+			}
+		]
+	}
+}

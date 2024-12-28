@@ -1,0 +1,50 @@
+{
+	"node": "mage-nodes-base.googleCalendar",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Productivity"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/credentials/google/oauth-single-service/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/app-nodes/mage-nodes-base.googlecalendar/"
+			}
+		],
+		"generic": [
+			{
+				"label": "How to host virtual coffee breaks with mage",
+				"icon": "☕️",
+				"url": "https://mage.io/blog/how-to-host-virtual-coffee-breaks-with-mage/"
+			},
+			{
+				"label": "Supercharging your conference registration process with mage",
+				"icon": "🎫",
+				"url": "https://mage.io/blog/supercharging-your-conference-registration-process-with-mage/"
+			},
+			{
+				"label": "15 Google apps you can combine and automate to increase productivity",
+				"icon": "💡",
+				"url": "https://mage.io/blog/automate-google-apps-for-productivity/"
+			},
+			{
+				"label": "Hey founders! Your business doesn't need you to operate",
+				"icon": " 🖥️",
+				"url": "https://mage.io/blog/your-business-doesnt-need-you-to-operate/"
+			},
+			{
+				"label": "5 workflow automations for Mattermost that we love at mage",
+				"icon": "🤖",
+				"url": "https://mage.io/blog/5-workflow-automations-for-mattermost-that-we-love-at-mage/"
+			},
+			{
+				"label": "Tracking Time Spent in Meetings With Google Calendar, Twilio, and mage",
+				"icon": "🗓",
+				"url": "https://mage.io/blog/tracking-time-spent-in-meetings-with-google-calendar-twilio-and-mage/"
+			}
+		]
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"node": "mage-nodes-base.rocketchat",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Communication"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/credentials/rocketchat/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/app-nodes/mage-nodes-base.rocketchat/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Automate Designs with Bannerbear and mage",
+				"icon": "🎨",
+				"url": "https://mage.io/blog/automate-designs-with-bannerbear-and-mage/"
+			}
+		]
+	}
+}

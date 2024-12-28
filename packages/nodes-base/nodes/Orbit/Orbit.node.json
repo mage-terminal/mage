@@ -1,0 +1,25 @@
+{
+	"node": "mage-nodes-base.orbit",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Analytics"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/credentials/orbit/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/app-nodes/mage-nodes-base.orbit/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Migrating Community Metrics to Orbit using mage",
+				"icon": "📈",
+				"url": "https://mage.io/blog/migrating-community-metrics-to-orbit-using-mage/"
+			}
+		]
+	}
+}

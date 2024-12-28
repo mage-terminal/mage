@@ -1,0 +1,19 @@
+{
+	"node": "mage-nodes-base.freshservice",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Productivity"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/credentials/freshservice/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/app-nodes/mage-nodes-base.freshservice/"
+			}
+		]
+	},
+	"alias": ["Freshdesk"]
+}

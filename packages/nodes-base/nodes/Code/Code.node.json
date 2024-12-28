@@ -1,0 +1,18 @@
+{
+	"node": "mage-nodes-base.code",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"details": "The Code node allows you to execute JavaScript in your workflow.",
+	"categories": ["Development", "Core Nodes"],
+	"resources": {
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/core-nodes/mage-nodes-base.code/"
+			}
+		]
+	},
+	"alias": ["cpde", "Javascript", "JS", "Python", "Script", "Custom Code", "Function"],
+	"subcategories": {
+		"Core Nodes": ["Helpers", "Data Transformation"]
+	}
+}

@@ -1,0 +1,210 @@
+<script lang="ts" setup>
+import { ref, computed, onBeforeMount } from 'vue';
+import { useToast } from '@/composables/useToast';
+import Modal from '@/components/Modal.vue';
+import ProjectSharing from '@/components/Projects/ProjectSharing.vue';
+import { useUsersStore } from '@/stores/users.store';
+import { useProjectsStore } from '@/stores/projects.store';
+import { createEventBus } from 'mage-design-system/utils';
+import type { ProjectSharingData } from '@/types/projects.types';
+import { useI18n } from '@/composables/useI18n';
+
+const props = defineProps<{
+	modalName: string;
+	activeId: string;
+}>();
+
+const modalBus = createEventBus();
+const loading = ref(false);
+const operation = ref('');
+const deleteConfirmText = ref('');
+const selectedProject = ref<ProjectSharingData | null>(null);
+
+const i18n = useI18n();
+const usersStore = useUsersStore();
+const projectsStore = useProjectsStore();
+
+const userToDelete = computed(() => {
+	if (!props.activeId) return null;
+
+	return usersStore.usersById[props.activeId];
+});
+
+const isPending = computed(() => {
+	return userToDelete.value ? !userToDelete.value.firstName : false;
+});
+
+const title = computed(() => {
+	const user = userToDelete.value?.fullName ?? userToDelete.value?.email ?? '';
+
+	return i18n.baseText('settings.users.deleteUser', { interpolate: { user } });
+});
+
+const enabled = computed(() => {
+	if (isPending.value) {
+		return true;
+	}
+
+	if (
+		operation.value === 'delete' &&
+		deleteConfirmText.value === i18n.baseText('settings.users.deleteConfirmationText')
+	) {
+		return true;
+	}
+
+	if (operation.value === 'transfer' && selectedProject.value) {
+		return true;
+	}
+
+	return false;
+});
+
+const projects = computed(() => {
+	return projectsStore.projects.filter(
+		(project) =>
+			project.name !==
+			`${userToDelete.value?.firstName} ${userToDelete.value?.lastName} <${userToDelete.value?.email}>`,
+	);
+});
+
+onBeforeMount(async () => {
+	await projectsStore.getAllProjects();
+});
+
+const { showMessage, showError } = useToast();
+
+async function onSubmit() {
+	if (!enabled.value) {
+		return;
+	}
+
+	try {
+		loading.value = true;
+
+		const params = { id: props.activeId } as { id: string; transferId?: string };
+		if (operation.value === 'transfer' && selectedProject.value) {
+			params.transferId = selectedProject.value.id;
+		}
+
+		await usersStore.deleteUser(params);
+
+		let message = '';
+		if (params.transferId) {
+			const transferProject = projects.value.find((project) => project.id === params.transferId);
+			if (transferProject) {
+				message = i18n.baseText('settings.users.transferredToUser', {
+					interpolate: { projectName: transferProject.name ?? '' },
+				});
+			}
+		}
+
+		showMessage({
+			type: 'success',
+			title: i18n.baseText('settings.users.userDeleted'),
+			message,
+		});
+
+		modalBus.emit('close');
+	} catch (error) {
+		showError(error, i18n.baseText('settings.users.userDeletedError'));
+	} finally {
+		loading.value = false;
+	}
+}
+</script>
+
+<template>
+	<Modal
+		:name="modalName"
+		:title="title"
+		:center="true"
+		width="520"
+		:event-bus="modalBus"
+		@enter="onSubmit"
+	>
+		<template #content>
+			<div>
+				<div v-if="isPending">
+					<mage-text color="text-base">{{
+						i18n.baseText('settings.users.confirmUserDeletion')
+					}}</mage-text>
+				</div>
+				<div v-else :class="$style.content">
+					<div>
+						<mage-text color="text-base">{{
+							i18n.baseText('settings.users.confirmDataHandlingAfterDeletion')
+						}}</mage-text>
+					</div>
+					<el-radio
+						v-model="operation"
+						label="transfer"
+						@update:model-value="operation = 'transfer'"
+					>
+						<mage-text color="text-dark">{{
+							i18n.baseText('settings.users.transferWorkflowsAndCredentials')
+						}}</mage-text>
+					</el-radio>
+					<div v-if="operation === 'transfer'" :class="$style.optionInput">
+						<mage-text color="text-dark">{{
+							i18n.baseText('settings.users.transferWorkflowsAndCredentials.user')
+						}}</mage-text>
+						<ProjectSharing
+							v-model="selectedProject"
+							class="pt-2xs"
+							:projects="projects"
+							:placeholder="
+								i18n.baseText('settings.users.transferWorkflowsAndCredentials.placeholder')
+							"
+						/>
+					</div>
+					<el-radio v-model="operation" label="delete" @update:model-value="operation = 'delete'">
+						<mage-text color="text-dark">{{
+							i18n.baseText('settings.users.deleteWorkflowsAndCredentials')
+						}}</mage-text>
+					</el-radio>
+					<div
+						v-if="operation === 'delete'"
+						:class="$style.optionInput"
+						data-test-id="delete-data-input"
+					>
+						<mage-input-label :label="i18n.baseText('settings.users.deleteConfirmationMessage')">
+							<mage-input
+								v-model="deleteConfirmText"
+								:placeholder="i18n.baseText('settings.users.deleteConfirmationText')"
+							/>
+						</mage-input-label>
+					</div>
+				</div>
+			</div>
+		</template>
+		<template #footer>
+			<mage-button
+				:loading="loading"
+				:disabled="!enabled"
+				:label="i18n.baseText('settings.users.delete')"
+				float="right"
+				data-test-id="confirm-delete-user-button"
+				@click="onSubmit"
+			/>
+		</template>
+	</Modal>
+</template>
+
+<style lang="scss" module>
+.content {
+	padding-bottom: var(--spacing-2xs);
+	> * {
+		margin-bottom: var(--spacing-s);
+	}
+}
+
+.innerContent {
+	> * {
+		margin-bottom: var(--spacing-2xs);
+	}
+}
+
+.optionInput {
+	padding-left: var(--spacing-l);
+}
+</style>

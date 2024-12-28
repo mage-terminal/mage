@@ -1,0 +1,30 @@
+{
+	"node": "mage-nodes-base.graphql",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Data & Storage", "Development"],
+	"resources": {
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/core-nodes/mage-nodes-base.graphql/"
+			}
+		],
+		"generic": [
+			{
+				"label": "What are APIs and how to use them with no code",
+				"icon": " 🪢",
+				"url": "https://mage.io/blog/what-are-apis-how-to-use-them-with-no-code/"
+			},
+			{
+				"label": "How to automatically give kudos to contributors with GitHub, Slack, and mage",
+				"icon": "👏",
+				"url": "https://mage.io/blog/how-to-automatically-give-kudos-to-contributors-with-github-slack-and-mage/"
+			},
+			{
+				"label": "How Goomer automated their operations with over 200 mage workflows",
+				"icon": "🛵",
+				"url": "https://mage.io/blog/how-goomer-automated-their-operations-with-over-200-mage-workflows/"
+			}
+		]
+	}
+}

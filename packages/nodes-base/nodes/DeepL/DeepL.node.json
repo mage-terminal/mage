@@ -1,0 +1,19 @@
+{
+	"node": "mage-nodes-base.deepL",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Utility"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/credentials/deepL/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/app-nodes/mage-nodes-base.deepl/"
+			}
+		]
+	},
+	"alias": ["Translate", "Translator"]
+}

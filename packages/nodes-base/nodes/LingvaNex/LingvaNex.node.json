@@ -1,0 +1,30 @@
+{
+	"node": "mage-nodes-base.lingvaNex",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Miscellaneous"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/credentials/lingvaNex/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/app-nodes/mage-nodes-base.lingvanex/"
+			}
+		],
+		"generic": [
+			{
+				"label": "2021 Goals: Level Up Your Vocabulary With Vonage and mage",
+				"icon": "🎯",
+				"url": "https://mage.io/blog/2021-goals-level-up-your-vocabulary-with-vonage-and-mage/"
+			},
+			{
+				"label": "Celebrating World Poetry Day with a daily poem in Telegram",
+				"icon": "📜",
+				"url": "https://mage.io/blog/world-poetry-day-workflow/"
+			}
+		]
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"node": "mage-nodes-base.calTrigger",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Productivity", "Utility"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/credentials/cal/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/trigger-nodes/mage-nodes-base.caltrigger/"
+			}
+		]
+	}
+}

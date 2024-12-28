@@ -1,0 +1,19 @@
+{
+	"node": "mage-nodes-base.spotify",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Miscellaneous"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/credentials/spotify/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/app-nodes/mage-nodes-base.spotify/"
+			}
+		]
+	},
+	"alias": ["Music", "Song"]
+}

@@ -1,0 +1,50 @@
+{
+	"node": "mage-nodes-base.postgres",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Development", "Data & Storage"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/credentials/postgres/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/app-nodes/mage-nodes-base.postgres/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Love at first sight: Ricardo’s mage journey",
+				"icon": "❤️",
+				"url": "https://mage.io/blog/love-at-first-sight-ricardos-mage-journey/"
+			},
+			{
+				"label": "Why I chose mage over Zapier in 2020",
+				"icon": "😍",
+				"url": "https://mage.io/blog/why-i-chose-mage-over-zapier-in-2020/"
+			},
+			{
+				"label": "Database Monitoring and Alerting with mage",
+				"icon": "📡",
+				"url": "https://mage.io/blog/database-monitoring-and-alerting-with-mage/"
+			},
+			{
+				"label": "Running mage on ships: An interview with Maranics",
+				"icon": "🛳",
+				"url": "https://mage.io/blog/running-mage-on-ships-an-interview-with-maranics/"
+			},
+			{
+				"label": "Automate your data processing pipeline in 9 steps",
+				"icon": "⚙️",
+				"url": "https://mage.io/blog/automate-your-data-processing-pipeline-in-9-steps-with-mage/"
+			},
+			{
+				"label": "How Honest Burgers Use Automation to Save $100k per year",
+				"icon": "🍔",
+				"url": "https://mage.io/blog/how-honest-burgers-use-automation-to-save-100k-per-year/"
+			}
+		]
+	}
+}

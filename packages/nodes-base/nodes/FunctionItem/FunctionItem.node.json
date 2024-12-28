@@ -1,0 +1,28 @@
+{
+	"node": "mage-nodes-base.functionItem",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Development", "Core Nodes"],
+	"resources": {
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/core-nodes/mage-nodes-base.code/"
+			}
+		],
+		"generic": [
+			{
+				"label": "How uProc scraped a multi-page website with a low-code workflow",
+				"icon": " 🕸️",
+				"url": "https://mage.io/blog/how-uproc-scraped-a-multi-page-website-with-a-low-code-workflow/"
+			},
+			{
+				"label": "7 no-code workflow automations for Amazon Web Services",
+				"url": "https://mage.io/blog/aws-workflow-automation/"
+			}
+		]
+	},
+	"alias": ["Javascript", "Code", "Custom Code", "JS"],
+	"subcategories": {
+		"Core Nodes": ["Data Transformation"]
+	}
+}

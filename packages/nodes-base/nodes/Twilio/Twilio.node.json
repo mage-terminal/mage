@@ -1,0 +1,61 @@
+{
+	"node": "mage-nodes-base.twilio",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Communication", "Development"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/credentials/twilio/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/app-nodes/mage-nodes-base.twilio/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Love at first sight: Ricardo’s mage journey",
+				"icon": "❤️",
+				"url": "https://mage.io/blog/love-at-first-sight-ricardos-mage-journey/"
+			},
+			{
+				"label": "Database Monitoring and Alerting with mage",
+				"icon": "📡",
+				"url": "https://mage.io/blog/database-monitoring-and-alerting-with-mage/"
+			},
+			{
+				"label": "Automatically Adding Expense Receipts to Google Sheets with Telegram, Mindee, Twilio, and mage",
+				"icon": "🧾",
+				"url": "https://mage.io/blog/automatically-adding-expense-receipts-to-google-sheets-with-telegram-mindee-twilio-and-mage/"
+			},
+			{
+				"label": "Tracking Time Spent in Meetings With Google Calendar, Twilio, and mage",
+				"icon": "🗓",
+				"url": "https://mage.io/blog/tracking-time-spent-in-meetings-with-google-calendar-twilio-and-mage/"
+			},
+			{
+				"label": "Creating Error Workflows in mage",
+				"icon": "🌪",
+				"url": "https://mage.io/blog/creating-error-workflows-in-mage/"
+			},
+			{
+				"label": "Sending Automated Congratulations with Google Sheets, Twilio, and mage ",
+				"icon": "🙌",
+				"url": "https://mage.io/blog/sending-automated-congratulations-with-google-sheets-twilio-and-mage/"
+			},
+			{
+				"label": "Learn to Build Powerful API Endpoints Using Webhooks",
+				"icon": "🧰",
+				"url": "https://mage.io/blog/learn-to-build-powerful-api-endpoints-using-webhooks/"
+			},
+			{
+				"label": "Sending SMS the Low-Code Way with Airtable, Twilio Programmable SMS, and mage",
+				"icon": "📱",
+				"url": "https://mage.io/blog/sending-sms-the-low-code-way-with-airtable-twilio-programmable-sms-and-mage/"
+			}
+		]
+	},
+	"alias": ["SMS", "Phone", "Voice"]
+}

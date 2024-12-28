@@ -1,0 +1,19 @@
+{
+	"node": "mage-nodes-base.openAi",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Utility"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/credentials/openai/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/app-nodes/mage-nodes-langchain.openai/"
+			}
+		]
+	},
+	"alias": ["ChatGPT", "DallE"]
+}

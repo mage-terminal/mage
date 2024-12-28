@@ -1,0 +1,18 @@
+{
+	"node": "mage-nodes-base.e2eTest",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"details": "The is a test node for e2e testing.",
+	"categories": ["Core Nodes"],
+	"resources": {
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/core-nodes/mage-nodes-base.editimage/"
+			}
+		]
+	},
+	"subcategories": {
+		"Core Nodes": ["Helpers"]
+	},
+	"e2e": true
+}

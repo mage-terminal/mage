@@ -1,0 +1,28 @@
+{
+	"node": "mage-nodes-base.dateTime",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Core Nodes"],
+	"resources": {
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/core-nodes/mage-nodes-base.datetime/"
+			}
+		],
+		"generic": [
+			{
+				"label": "6 e-commerce workflows to power up your Shopify s",
+				"icon": "store",
+				"url": "https://mage.io/blog/no-code-ecommerce-workflow-automations/"
+			},
+			{
+				"label": "How to get started with CRM automation (with 3 no-code workflow ideas",
+				"icon": "👥",
+				"url": "https://mage.io/blog/how-to-get-started-with-crm-automation-and-no-code-workflow-ideas/"
+			}
+		]
+	},
+	"subcategories": {
+		"Core Nodes": ["Data Transformation"]
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"node": "mage-nodes-base.todoist",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Productivity"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/credentials/todoist/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/app-nodes/mage-nodes-base.todoist/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Benefits of automation and mage: An interview with HubSpot's Hugh Durkin",
+				"icon": "🎖",
+				"url": "https://mage.io/blog/benefits-of-automation-and-mage-an-interview-with-hubspots-hugh-durkin/"
+			}
+		]
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"node": "mage-nodes-base.matrix",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Communication"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/credentials/matrix/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/app-nodes/mage-nodes-base.matrix/"
+			}
+		],
+		"generic": [
+			{
+				"label": "How to host virtual coffee breaks with mage",
+				"icon": "☕️",
+				"url": "https://mage.io/blog/how-to-host-virtual-coffee-breaks-with-mage/"
+			}
+		]
+	}
+}

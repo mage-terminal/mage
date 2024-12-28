@@ -1,0 +1,133 @@
+{
+	"node": "mage-nodes-base.httpRequest",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Development", "Core Nodes"],
+	"resources": {
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/core-nodes/mage-nodes-base.httprequest/"
+			}
+		],
+		"generic": [
+			{
+				"label": "2021: The Year to Automate the New You with mage",
+				"icon": "☀️",
+				"url": "https://mage.io/blog/2021-the-year-to-automate-the-new-you-with-mage/"
+			},
+			{
+				"label": "Why business process automation with mage can change your daily life",
+				"icon": "🧬",
+				"url": "https://mage.io/blog/why-business-process-automation-with-mage-can-change-your-daily-life/"
+			},
+			{
+				"label": "Automatically pulling and visualizing data with mage",
+				"icon": "📈",
+				"url": "https://mage.io/blog/automatically-pulling-and-visualizing-data-with-mage/"
+			},
+			{
+				"label": "Learn how to automatically cross-post your content with mage",
+				"icon": "✍️",
+				"url": "https://mage.io/blog/learn-how-to-automatically-cross-post-your-content-with-mage/"
+			},
+			{
+				"label": "Automatically Adding Expense Receipts to Google Sheets with Telegram, Mindee, Twilio, and mage",
+				"icon": "🧾",
+				"url": "https://mage.io/blog/automatically-adding-expense-receipts-to-google-sheets-with-telegram-mindee-twilio-and-mage/"
+			},
+			{
+				"label": "Running mage on ships: An interview with Maranics",
+				"icon": "🛳",
+				"url": "https://mage.io/blog/running-mage-on-ships-an-interview-with-maranics/"
+			},
+			{
+				"label": "What are APIs and how to use them with no code",
+				"icon": " 🪢",
+				"url": "https://mage.io/blog/what-are-apis-how-to-use-them-with-no-code/"
+			},
+			{
+				"label": "5 tasks you can automate with the new Notion API ",
+				"icon": "⚡️",
+				"url": "https://mage.io/blog/5-tasks-you-can-automate-with-notion-api/"
+			},
+			{
+				"label": "Celebrating World Poetry Day with a daily poem in Telegram",
+				"icon": "📜",
+				"url": "https://mage.io/blog/world-poetry-day-workflow/"
+			},
+			{
+				"label": "15 Google apps you can combine and automate to increase productivity",
+				"icon": "💡",
+				"url": "https://mage.io/blog/automate-google-apps-for-productivity/"
+			},
+			{
+				"label": "Automate Designs with Bannerbear and mage",
+				"icon": "🎨",
+				"url": "https://mage.io/blog/automate-designs-with-bannerbear-and-mage/"
+			},
+			{
+				"label": "How uProc scraped a multi-page website with a low-code workflow",
+				"icon": " 🕸️",
+				"url": "https://mage.io/blog/how-uproc-scraped-a-multi-page-website-with-a-low-code-workflow/"
+			},
+			{
+				"label": "Building an expense tracking app in 10 minutes",
+				"icon": "📱",
+				"url": "https://mage.io/blog/building-an-expense-tracking-app-in-10-minutes/"
+			},
+			{
+				"label": "5 workflow automations for Mattermost that we love at mage",
+				"icon": "🤖",
+				"url": "https://mage.io/blog/5-workflow-automations-for-mattermost-that-we-love-at-mage/"
+			},
+			{
+				"label": "How to use the HTTP Request Node - The Swiss Army Knife for Workflow Automation",
+				"icon": "🧰",
+				"url": "https://mage.io/blog/how-to-use-the-http-request-node-the-swiss-army-knife-for-workflow-automation/"
+			},
+			{
+				"label": "Learn how to use webhooks with Mattermost slash commands",
+				"icon": "🦄",
+				"url": "https://mage.io/blog/learn-how-to-use-webhooks-with-mattermost-slash-commands/"
+			},
+			{
+				"label": "How a Membership Development Manager automates his work and investments",
+				"icon": "📈",
+				"url": "https://mage.io/blog/how-a-membership-development-manager-automates-his-work-and-investments/"
+			},
+			{
+				"label": "A low-code bitcoin ticker built with QuestDB and mage.io",
+				"icon": "📈",
+				"url": "https://mage.io/blog/a-low-code-bitcoin-ticker-built-with-questdb-and-mage-io/"
+			},
+			{
+				"label": "How to set up a no-code CI/CD pipeline with GitHub and TravisCI",
+				"icon": "🎡",
+				"url": "https://mage.io/blog/how-to-set-up-a-ci-cd-pipeline-with-no-code/"
+			},
+			{
+				"label": "How Common Knowledge use workflow automation for activism",
+				"icon": "✨",
+				"url": "https://mage.io/blog/automations-for-activists/"
+			},
+			{
+				"label": "Creating scheduled text affirmations with mage",
+				"icon": "🤟",
+				"url": "https://mage.io/blog/creating-scheduled-text-affirmations-with-mage/"
+			},
+			{
+				"label": "How Goomer automated their operations with over 200 mage workflows",
+				"icon": "🛵",
+				"url": "https://mage.io/blog/how-goomer-automated-their-operations-with-over-200-mage-workflows/"
+			},
+			{
+				"label": "7 no-code workflow automations for Amazon Web Services",
+				"url": "https://mage.io/blog/aws-workflow-automation/"
+			}
+		]
+	},
+	"alias": ["API", "Request", "URL", "Build", "cURL"],
+	"subcategories": {
+		"Core Nodes": ["Helpers"]
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"node": "mage-nodes-base.executeCommand",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"details": "Execute command allows you to run terminal commands on the computer/server hosting your mage instance. Useful for executing a shell script or interacting with your mage instance programmatically via the CLI.",
+	"categories": ["Development", "Core Nodes"],
+	"resources": {
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/core-nodes/mage-nodes-base.executecommand/"
+			}
+		],
+		"generic": [
+			{
+				"label": "How uProc scraped a multi-page website with a low-code workflow",
+				"icon": " 🕸️",
+				"url": "https://mage.io/blog/how-uproc-scraped-a-multi-page-website-with-a-low-code-workflow/"
+			},
+			{
+				"label": "Why this Product Manager loves workflow automation with mage",
+				"icon": "🧠",
+				"url": "https://mage.io/blog/why-this-product-manager-loves-workflow-automation-with-mage/"
+			}
+		]
+	},
+	"alias": ["Shell", "Command", "OS", "Bash"],
+	"subcategories": {
+		"Core Nodes": ["Helpers"]
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"node": "mage-nodes-base.rssFeedRead",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Core Nodes"],
+	"resources": {
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/core-nodes/mage-nodes-base.rssfeedread/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Why business process automation with mage can change your daily life",
+				"icon": "🧬",
+				"url": "https://mage.io/blog/why-business-process-automation-with-mage-can-change-your-daily-life/"
+			},
+			{
+				"label": "Why I chose mage over Zapier in 2020",
+				"icon": "😍",
+				"url": "https://mage.io/blog/why-i-chose-mage-over-zapier-in-2020/"
+			}
+		]
+	}
+}

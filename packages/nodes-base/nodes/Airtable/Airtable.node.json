@@ -1,0 +1,84 @@
+{
+	"node": "mage-nodes-base.airtable",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Data & Storage"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/credentials/airtable/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/app-nodes/mage-nodes-base.airtable/"
+			}
+		],
+		"generic": [
+			{
+				"label": "2021 Goals: Level Up Your Vocabulary With Vonage and mage",
+				"icon": "🎯",
+				"url": "https://mage.io/blog/2021-goals-level-up-your-vocabulary-with-vonage-and-mage/"
+			},
+			{
+				"label": "2021: The Year to Automate the New You with mage",
+				"icon": "☀️",
+				"url": "https://mage.io/blog/2021-the-year-to-automate-the-new-you-with-mage/"
+			},
+			{
+				"label": "How to build a low-code, self-hosted URL shortener in 3 steps",
+				"icon": "🔗",
+				"url": "https://mage.io/blog/how-to-build-a-low-code-self-hosted-url-shortener/"
+			},
+			{
+				"label": "How to get started with CRM automation (with 3 no-code workflow ideas",
+				"icon": "👥",
+				"url": "https://mage.io/blog/how-to-get-started-with-crm-automation-and-no-code-workflow-ideas/"
+			},
+			{
+				"label": "15 Google apps you can combine and automate to increase productivity",
+				"icon": "💡",
+				"url": "https://mage.io/blog/automate-google-apps-for-productivity/"
+			},
+			{
+				"label": "Building an expense tracking app in 10 minutes",
+				"icon": "📱",
+				"url": "https://mage.io/blog/building-an-expense-tracking-app-in-10-minutes/"
+			},
+			{
+				"label": "Why this Product Manager loves workflow automation with mage",
+				"icon": "🧠",
+				"url": "https://mage.io/blog/why-this-product-manager-loves-workflow-automation-with-mage/"
+			},
+			{
+				"label": "Learn to Build Powerful API Endpoints Using Webhooks",
+				"icon": "🧰",
+				"url": "https://mage.io/blog/learn-to-build-powerful-api-endpoints-using-webhooks/"
+			},
+			{
+				"label": "Sending SMS the Low-Code Way with Airtable, Twilio Programmable SMS, and mage",
+				"icon": "📱",
+				"url": "https://mage.io/blog/sending-sms-the-low-code-way-with-airtable-twilio-programmable-sms-and-mage/"
+			},
+			{
+				"label": "Automating Conference Organization Processes with mage",
+				"icon": "🙋‍♀️",
+				"url": "https://mage.io/blog/automating-conference-organization-processes-with-mage/"
+			},
+			{
+				"label": "Benefits of automation and mage: An interview with HubSpot's Hugh Durkin",
+				"icon": "🎖",
+				"url": "https://mage.io/blog/benefits-of-automation-and-mage-an-interview-with-hubspots-hugh-durkin/"
+			},
+			{
+				"label": "How Goomer automated their operations with over 200 mage workflows",
+				"icon": "🛵",
+				"url": "https://mage.io/blog/how-goomer-automated-their-operations-with-over-200-mage-workflows/"
+			},
+			{
+				"label": "7 no-code workflow automations for Amazon Web Services",
+				"url": "https://mage.io/blog/aws-workflow-automation/"
+			}
+		]
+	}
+}

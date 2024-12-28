@@ -1,0 +1,25 @@
+{
+	"node": "mage-nodes-base.coda",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Productivity"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/credentials/coda/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/app-nodes/mage-nodes-base.coda/"
+			}
+		],
+		"generic": [
+			{
+				"label": "How Goomer automated their operations with over 200 mage workflows",
+				"icon": "🛵",
+				"url": "https://mage.io/blog/how-goomer-automated-their-operations-with-over-200-mage-workflows/"
+			}
+		]
+	}
+}

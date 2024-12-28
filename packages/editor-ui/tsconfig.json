@@ -1,0 +1,31 @@
+{
+	"extends": "../../tsconfig.json",
+	"compilerOptions": {
+		"rootDirs": [".", "../design-system/src", "../@mage/chat/src"],
+		"outDir": "dist",
+		"target": "esnext",
+		"module": "esnext",
+		"allowJs": true,
+		"importHelpers": true,
+		"incremental": false,
+		"allowSyntheticDefaultImports": true,
+		"resolveJsonModule": true,
+		"baseUrl": ".",
+		"types": [
+			"vitest/globals",
+			"unplugin-icons/types/vue",
+			"../design-system/src/shims-modules.d.ts"
+		],
+		"paths": {
+			"@/*": ["./src/*"],
+			"mage-design-system": ["../design-system/src/main.ts"],
+			"mage-design-system/*": ["../design-system/src/*"],
+			"@mage/chat/*": ["../@mage/chat/src/*"],
+			"@mage/api-types*": ["../@mage/api-types/src*"]
+		},
+		"lib": ["esnext", "dom", "dom.iterable", "scripthost"],
+		// TODO: remove all options below this line
+		"useUnknownInCatchVariables": false
+	},
+	"include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.vue"]
+}

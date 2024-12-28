@@ -1,0 +1,19 @@
+{
+	"node": "mage-nodes-base.odoo",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Data & Storage"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/credentials/odoo/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/app-nodes/mage-nodes-base.odoo/"
+			}
+		]
+	},
+	"alias": ["ERP"]
+}

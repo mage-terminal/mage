@@ -1,0 +1,18 @@
+{
+	"node": "mage-nodes-base.apiTemplateIo",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Marketing"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/credentials/apiTemplateIo/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/app-nodes/mage-nodes-base.apitemplateio/"
+			}
+		]
+	}
+}

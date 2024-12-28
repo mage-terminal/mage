@@ -1,0 +1,5 @@
+These files contain reusable logic for workflow inputs mapping used in these nodes:
+
+    - mage-nodes-base.executeWorkflow
+    - mage-nodes-base.executeWorkflowTrigger
+    - @mage/mage-nodes-langchain.toolWorkflow

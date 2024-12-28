@@ -1,0 +1,20 @@
+{
+	"node": "mage-nodes-base.brevoTrigger",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Marketing", "Communication"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/credentials/brevo/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/trigger-nodes/mage-nodes-base.brevotrigger/"
+			}
+		],
+		"generic": []
+	},
+	"alias": ["sendinblue"]
+}

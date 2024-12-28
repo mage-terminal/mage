@@ -1,0 +1,24 @@
+{
+	"node": "mage-nodes-base.spreadsheetFile",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Data & Storage", "Core Nodes"],
+	"resources": {
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/core-nodes/mage-nodes-base.converttofile/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Build your own virtual assistant with mage: A step by step guide",
+				"icon": "👦",
+				"url": "https://mage.io/blog/build-your-own-virtual-assistant-with-mage-a-step-by-step-guide/"
+			}
+		]
+	},
+	"alias": ["_Excel", "Excel", "CSV", "Sheet", "Spreadsheet", "xls", "xlsx", "ods"],
+	"subcategories": {
+		"Core Nodes": ["Files"]
+	}
+}

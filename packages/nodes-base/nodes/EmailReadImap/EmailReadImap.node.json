@@ -1,0 +1,28 @@
+{
+	"node": "mage-nodes-base.emailReadImap",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Communication", "Core Nodes"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/credentials/imap/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/core-nodes/mage-nodes-base.emailimap/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Build your own virtual assistant with mage: A step by step guide",
+				"icon": "👦",
+				"url": "https://mage.io/blog/build-your-own-virtual-assistant-with-mage-a-step-by-step-guide/"
+			}
+		]
+	},
+	"subcategories": {
+		"Core Nodes": ["Other Trigger Nodes"]
+	}
+}

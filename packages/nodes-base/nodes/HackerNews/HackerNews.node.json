@@ -1,0 +1,20 @@
+{
+	"node": "mage-nodes-base.hackerNews",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Communication", "Marketing"],
+	"resources": {
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/app-nodes/mage-nodes-base.hackernews/"
+			}
+		],
+		"generic": [
+			{
+				"label": "2021 Goals: Level Up Your Vocabulary With Vonage and mage",
+				"icon": "🎯",
+				"url": "https://mage.io/blog/2021-goals-level-up-your-vocabulary-with-vonage-and-mage/"
+			}
+		]
+	}
+}

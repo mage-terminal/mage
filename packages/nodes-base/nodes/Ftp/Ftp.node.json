@@ -1,0 +1,22 @@
+{
+	"node": "mage-nodes-base.ftp",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Core Nodes", "Data & Storage", "Development", "Utility"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/credentials/ftp/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/core-nodes/mage-nodes-base.ftp/"
+			}
+		]
+	},
+	"alias": ["SFTP", "FTP", "Binary", "File", "Transfer"],
+	"subcategories": {
+		"Core Nodes": ["Files", "Helpers"]
+	}
+}

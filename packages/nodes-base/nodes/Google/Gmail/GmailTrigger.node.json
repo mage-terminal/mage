@@ -1,0 +1,55 @@
+{
+	"node": "mage-nodes-base.gmailTrigger",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Communication"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/credentials/google/oauth-single-service/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/trigger-nodes/mage-nodes-base.gmailtrigger/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Why business process automation with mage can change your daily life",
+				"icon": "🧬",
+				"url": "https://mage.io/blog/why-business-process-automation-with-mage-can-change-your-daily-life/"
+			},
+			{
+				"label": "Supercharging your conference registration process with mage",
+				"icon": "🎫",
+				"url": "https://mage.io/blog/supercharging-your-conference-registration-process-with-mage/"
+			},
+			{
+				"label": "6 e-commerce workflows to power up your Shopify s",
+				"icon": "store",
+				"url": "https://mage.io/blog/no-code-ecommerce-workflow-automations/"
+			},
+			{
+				"label": "How to get started with CRM automation (with 3 no-code workflow ideas",
+				"icon": "👥",
+				"url": "https://mage.io/blog/how-to-get-started-with-crm-automation-and-no-code-workflow-ideas/"
+			},
+			{
+				"label": "15 Google apps you can combine and automate to increase productivity",
+				"icon": "💡",
+				"url": "https://mage.io/blog/automate-google-apps-for-productivity/"
+			},
+			{
+				"label": "Hey founders! Your business doesn't need you to operate",
+				"icon": " 🖥️",
+				"url": "https://mage.io/blog/your-business-doesnt-need-you-to-operate/"
+			},
+			{
+				"label": "Using Automation to Boost Productivity in the Workplace",
+				"icon": "💪",
+				"url": "https://mage.io/blog/using-automation-to-boost-productivity-in-the-workplace/"
+			}
+		]
+	}
+}

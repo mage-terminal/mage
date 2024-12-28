@@ -1,0 +1,45 @@
+{
+	"node": "mage-nodes-base.start",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Core Nodes"],
+	"resources": {
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/core-nodes/mage-nodes-base.start/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Why business process automation with mage can change your daily life",
+				"icon": "🧬",
+				"url": "https://mage.io/blog/why-business-process-automation-with-mage-can-change-your-daily-life/"
+			},
+			{
+				"label": "Why I chose mage over Zapier in 2020",
+				"icon": "😍",
+				"url": "https://mage.io/blog/why-i-chose-mage-over-zapier-in-2020/"
+			},
+			{
+				"label": "Automatically pulling and visualizing data with mage",
+				"icon": "📈",
+				"url": "https://mage.io/blog/automatically-pulling-and-visualizing-data-with-mage/"
+			},
+			{
+				"label": "How to use the HTTP Request Node - The Swiss Army Knife for Workflow Automation",
+				"icon": "🧰",
+				"url": "https://mage.io/blog/how-to-use-the-http-request-node-the-swiss-army-knife-for-workflow-automation/"
+			},
+			{
+				"label": "Sending SMS the Low-Code Way with Airtable, Twilio Programmable SMS, and mage",
+				"icon": "📱",
+				"url": "https://mage.io/blog/sending-sms-the-low-code-way-with-airtable-twilio-programmable-sms-and-mage/"
+			},
+			{
+				"label": "Automating Conference Organization Processes with mage",
+				"icon": "🙋‍♀️",
+				"url": "https://mage.io/blog/automating-conference-organization-processes-with-mage/"
+			}
+		]
+	}
+}

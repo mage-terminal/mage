@@ -1,0 +1,25 @@
+{
+	"node": "mage-nodes-base.mandrill",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Communication", "Development"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/credentials/mandrill/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/app-nodes/mage-nodes-base.mandrill/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Love at first sight: Ricardo’s mage journey",
+				"icon": "❤️",
+				"url": "https://mage.io/blog/love-at-first-sight-ricardos-mage-journey/"
+			}
+		]
+	}
+}

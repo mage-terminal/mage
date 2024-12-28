@@ -1,0 +1,25 @@
+{
+	"node": "mage-nodes-base.redis",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Development", "Data & Storage"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/credentials/redis/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/app-nodes/mage-nodes-base.redis/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Why this Product Manager loves workflow automation with mage",
+				"icon": "🧠",
+				"url": "https://mage.io/blog/why-this-product-manager-loves-workflow-automation-with-mage/"
+			}
+		]
+	}
+}

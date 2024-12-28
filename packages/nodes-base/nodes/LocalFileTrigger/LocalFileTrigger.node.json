@@ -1,0 +1,17 @@
+{
+	"node": "mage-nodes-base.localFileTrigger",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Core Nodes"],
+	"resources": {
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/core-nodes/mage-nodes-base.localfiletrigger/"
+			}
+		]
+	},
+	"alias": ["Watch", "Monitor"],
+	"subcategories": {
+		"Core Nodes": ["Files", "Other Trigger Nodes"]
+	}
+}

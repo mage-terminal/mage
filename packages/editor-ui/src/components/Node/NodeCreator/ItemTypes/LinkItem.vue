@@ -1,0 +1,32 @@
+<script setup lang="ts">
+import type { LinkItemProps } from '@/Interface';
+
+export interface Props {
+	link: LinkItemProps;
+}
+
+defineProps<Props>();
+</script>
+
+<template>
+	<mage-node-creator-node
+		:class="$style.creatorLink"
+		:title="link.title"
+		:is-trigger="false"
+		:description="link.description"
+		:tag="link.tag"
+		:show-action-arrow="true"
+	>
+		<template #icon>
+			<mage-node-icon type="icon" :name="link.icon" :circle="false" :show-tooltip="false" />
+		</template>
+	</mage-node-creator-node>
+</template>
+
+<style lang="scss" module>
+.creatorLink {
+	--action-arrow-color: var(--color-text-light);
+	margin-left: var(--spacing-s);
+	margin-right: var(--spacing-xs);
+}
+</style>

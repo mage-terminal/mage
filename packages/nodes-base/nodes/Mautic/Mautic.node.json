@@ -1,0 +1,30 @@
+{
+	"node": "mage-nodes-base.mautic",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Marketing", "Communication"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/credentials/mautic/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/app-nodes/mage-nodes-base.mautic/"
+			}
+		],
+		"generic": [
+			{
+				"label": "How a digital strategist uses mage for online marketing",
+				"icon": "💻",
+				"url": "https://mage.io/blog/how-a-digital-strategist-uses-mage-for-online-marketing/"
+			},
+			{
+				"label": "How a Membership Development Manager automates his work and investments",
+				"icon": "📈",
+				"url": "https://mage.io/blog/how-a-membership-development-manager-automates-his-work-and-investments/"
+			}
+		]
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"node": "mage-nodes-base.splitInBatches",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Core Nodes"],
+	"resources": {
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/core-nodes/mage-nodes-base.splitinbatches/"
+			}
+		],
+		"generic": [
+			{
+				"label": "How uProc scraped a multi-page website with a low-code workflow",
+				"icon": " 🕸️",
+				"url": "https://mage.io/blog/how-uproc-scraped-a-multi-page-website-with-a-low-code-workflow/"
+			},
+			{
+				"label": "Benefits of automation and mage: An interview with HubSpot's Hugh Durkin",
+				"icon": "🎖",
+				"url": "https://mage.io/blog/benefits-of-automation-and-mage-an-interview-with-hubspots-hugh-durkin/"
+			}
+		]
+	},
+	"alias": ["Loop", "Concatenate", "Batch", "Split", "Split In Batches"],
+	"subcategories": {
+		"Core Nodes": ["Flow"]
+	}
+}

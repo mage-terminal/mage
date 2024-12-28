@@ -1,0 +1,36 @@
+{
+	"node": "mage-nodes-base.twitter",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Marketing"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/credentials/twitter/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/app-nodes/mage-nodes-base.twitter/"
+			}
+		],
+		"generic": [
+			{
+				"label": "6 e-commerce workflows to power up your Shopify s",
+				"icon": "store",
+				"url": "https://mage.io/blog/no-code-ecommerce-workflow-automations/"
+			},
+			{
+				"label": "Automate your data processing pipeline in 9 steps",
+				"icon": "⚙️",
+				"url": "https://mage.io/blog/automate-your-data-processing-pipeline-in-9-steps-with-mage/"
+			},
+			{
+				"label": "5 workflow automations for Mattermost that we love at mage",
+				"icon": "🤖",
+				"url": "https://mage.io/blog/5-workflow-automations-for-mattermost-that-we-love-at-mage/"
+			}
+		]
+	},
+	"alias": ["Tweet", "Twitter", "X", "X API"]
+}

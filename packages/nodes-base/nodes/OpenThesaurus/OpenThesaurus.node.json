@@ -1,0 +1,13 @@
+{
+	"node": "mage-nodes-base.openThesaurus",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Utility"],
+	"resources": {
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/app-nodes/mage-nodes-base.openthesaurus/"
+			}
+		]
+	}
+}

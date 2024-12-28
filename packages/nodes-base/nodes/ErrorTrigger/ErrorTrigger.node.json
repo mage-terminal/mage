@@ -1,0 +1,24 @@
+{
+	"node": "mage-nodes-base.errorTrigger",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"details": "In mage, when a workflow execution fails, it can start another workflow. This second workflow can be any arbitrary workflow on your mage instance. Use the Error Trigger node as your Trigger in the Error workflow.",
+	"categories": ["Development", "Core Nodes"],
+	"resources": {
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/core-nodes/mage-nodes-base.errortrigger/"
+			}
+		],
+		"generic": [
+			{
+				"label": "Creating Error Workflows in mage",
+				"icon": "🌪",
+				"url": "https://mage.io/blog/creating-error-workflows-in-mage/"
+			}
+		]
+	},
+	"subcategories": {
+		"Core Nodes": ["Other Trigger Nodes"]
+	}
+}

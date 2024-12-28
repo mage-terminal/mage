@@ -1,0 +1,19 @@
+{
+	"node": "mage-nodes-base.googleBusinessProfileTrigger",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Communication"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/credentials/google/oauth-single-service/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/trigger-nodes/mage-nodes-base.googlebusinessprofiletrigger/"
+			}
+		]
+	},
+	"alias": ["Google My Business", "GMB", "My Business"]
+}

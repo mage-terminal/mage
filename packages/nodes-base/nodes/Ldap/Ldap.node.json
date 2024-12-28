@@ -1,0 +1,19 @@
+{
+	"node": "mage-nodes-base.ldap",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Development", "Developer Tools"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/credentials/ldap/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.mage.io/integrations/builtin/core-nodes/mage-nodes-base.ldap/"
+			}
+		]
+	},
+	"alias": ["ad", "active directory"]
+}
